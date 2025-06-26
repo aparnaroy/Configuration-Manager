@@ -1,0 +1,68 @@
+.navBarContents {
+    background: #28536b;
+    display: flex;
+    justify-content: space-between; /* Keep logo and title apart */
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+
+.navBarSubContents {
+    background: #639ab7;
+}
+
+.navBarContents h2 {
+    margin-top: 9px;
+    font-size: 19px;
+}
+
+.navBarContents img {
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navBarContents .navButtons {
+    display: flex;
+    gap: 35px;
+    margin-left: auto; /* Push the buttons to the right */
+    margin-right: 15px;
+    height: 35px;
+}
+
+.navBarContents .btn-primary {
+    background-color: #ffffff;
+    color: #28536B;
+    font-weight: 600;
+    /* border: 1.5px solid #28536B; */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease-in-out;
+}
+  
+.navBarContents .btn-primary:hover:not(:disabled) {
+    background-color: #a1a6b4;
+    /* border: 1.5px solid #28536B; */
+}
+
+.navbar-admin {
+    background-color: #8B0000 !important; /* Deep red */
+}
+
+.welcomeText {
+    color: white !important;
+    align-self: center;
+}
+

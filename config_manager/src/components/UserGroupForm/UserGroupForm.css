@@ -1,0 +1,157 @@
+.form-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: #28536B;
+    font-family: 'Helvetica', 'Arial', serif;
+    z-index: 2;
+    padding: 20px;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    overflow: visible;
+  }
+  
+  h1 {
+    font-size: 1.15em !important;
+    font-weight: bold;
+    color: #28536B;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .form {
+    width: 90% !important;
+    margin-top: 10px;
+  }
+  
+  
+  .form-entry {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    z-index: 2;
+  }
+
+  .form-entry-cancel {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  
+  .text-input {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #28536B;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #28536B;
+    background-color: #f8f8f8;
+    z-index: 2;
+  }
+  
+  
+  .text-input:focus {
+    outline: none;
+    border: 1px solid #a1a6b4;
+    background-color: white;
+  }
+
+  /* make checkbox color dark blue */
+  .form-check-input {
+    background-color: #28536B;
+    border: 1px solid #28536B;
+    color: #28536B;
+  }
+  
+  
+  .custom-form-button {
+    margin-top: 10px;
+    z-index: 2;
+    margin-left: 10px;
+  }
+  
+  
+  .form .btn-primary {
+    background-color: #28536b;
+    font-weight: bold;
+    border: none;
+    padding: 10px 0;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form .btn-primary:disabled {
+    background-color: #5c8297;
+    cursor: not-allowed;
+  }
+  
+  .form .btn-primary:hover:not(:disabled) {
+    background-color: #266587;
+  }
+  
+  
+  .form-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #28536B;
+    margin-bottom: 20px;
+    z-index: 2;
+  }
+  
+  
+  .form-footer {
+    margin-top: 15px;
+    color: #28536B;
+    font-size: 0.9em;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  
+  .form-labels {
+    width: 170px;
+    margin-top: 5px;
+  }
+
+  .select__control {
+    min-height: 36px;
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+  .select__value-container {
+    padding: 0 6px;
+  }
+  .select__multi-value {
+    font-size: 18px;
+  }
+  
+  .text-input,
+  .basic-multi-select {
+    flex: 1; /* Input/select takes the remaining space */
+    min-width: 0;
+  }
+  

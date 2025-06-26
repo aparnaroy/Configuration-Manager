@@ -1,0 +1,30 @@
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: #f0f4f8;
+  width: 100%;
+}
+
+.CategoryList {
+  margin-bottom: 20px;
+}
+ 
+html, body {
+  font-family: 'Helvetica', 'Arial', serif;
+}
+ 
+.userGroupList {
+  width: 100%;
+}
+
+button:disabled,
+.btn:disabled {
+  background-color: #f0f0f0 !important;
+  color: #999 !important;
+  border-color: #ccc !important;
+  opacity: 1 !important;
+  cursor: not-allowed !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,33 @@
+/* Sticky Navigation Bar */
+.navBarContents {
+    background: rgb(0, 72, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0; /* Stick the nav bar to the top */
+    z-index: 10; /* Ensures it stays above other elements */
+    width: 100%;
+    border-bottom: 2px solid #a1a6b4; /* Border at the bottom */
+  }
+  
+  /* Optional: Make the logo and text fit well */
+  .navBarContents img {
+    height: 50px;
+  }
+  
+  .navBarContents h2 {
+    margin: 0;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .navBarContents button {
+    margin: 0 10px;
+  }
+
+  
+.mainContent {
+    margin-top: 90px; 
+}

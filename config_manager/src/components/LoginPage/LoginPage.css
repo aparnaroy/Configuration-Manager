@@ -1,0 +1,135 @@
+.loginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+
+.loginContainer {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.2);
+    width: 17em;
+    align-self: center;
+}
+
+.loginContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.loginContainer .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.loginContainer .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox-container .form-check {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+}  
+
+.loginContainer .form-check-label {
+    font-size: 14px;
+    color: #555555;
+    margin-left: 10px;
+}
+
+.loginContainer .form-check-input {
+    margin-top: 0;
+}
+
+.loginContainer .btn-primary {
+    background-color: #28536b;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginContainer .btn-primary:disabled {
+    background-color: #5c8297;
+    cursor: not-allowed;
+}
+
+.loginContainer .btn-primary:hover:not(:disabled) {
+    background-color: #266587;
+}
+
+.loginContainer .form-check-input {
+    transition: all 0.2s ease-in-out;
+}
+
+.loginContainer .form-check-input:checked {
+    background-color: #28536b;
+    border: none;
+}
+
+.loginContainer .form-check-input:focus {
+    border-color: #28536b;
+    box-shadow: none;
+}
+
+.loginContainer .form-check-input:hover {
+    border-color: #28536b;
+    cursor: pointer;
+}
+
+.form-labels {
+    color: gray;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .formContainer {
+        padding: 20px;
+    }
+}
+
+.register-link {
+    background-color: transparent !important;
+    color: #333333 !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.link-text {
+    color: #28536b;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out; 
+}
+  
+.link-text:hover {
+    color: darkblue;
+}
+
+.form-control:focus {
+    border-color: #28536b !important;
+    box-shadow: none !important;
+}
+  

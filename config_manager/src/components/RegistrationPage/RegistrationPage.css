@@ -1,0 +1,125 @@
+.registration-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+.formContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 17em;
+    align-self: center;
+}
+
+.formContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.formContainer .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.formContainer .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formContainer .form-check-label {
+    font-size: 14px;
+    color: #555555;
+}
+
+.checkbox-container .form-check {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+}  
+
+.formContainer .form-check-label {
+    font-size: 14px;
+    color: #555555;
+    margin-left: 10px;
+}
+
+.formContainer .form-check-input {
+    margin-top: 0;
+}
+
+.formContainer .btn-primary {
+    background-color: #28536b;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formContainer .btn-primary:disabled {
+    background-color: #5c8297;
+    cursor: not-allowed;
+}
+
+.formContainer .btn-primary:hover:not(:disabled) {
+    background-color: #266587;
+}
+
+.formContainer .form-check-input:checked {
+    background-color: #28536b;
+    border: none;
+}
+
+.formContainer .form-check-input:focus {
+    border-color: #28536b;
+    box-shadow: none;
+}
+
+.formContainer .form-check-input {
+    transition: all 0.2s ease-in-out;
+}
+
+.formContainer .form-check-input:hover {
+    border-color: #28536b;
+    cursor: pointer;
+}
+
+.form-labels {
+    color: gray;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .formContainer {
+        padding: 20px;
+    }
+}
+
+.passwordError {
+    color: red;
+    font-size: 12px; 
+    font-style: italic; 
+    margin-top: 5px; 
+}
+

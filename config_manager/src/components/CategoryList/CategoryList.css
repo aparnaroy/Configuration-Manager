@@ -1,0 +1,137 @@
+.full-screen-card1 {
+   margin-top: 3rem;
+   max-width: 120%;
+   width: 100%;
+   padding-left: 2rem;
+   padding-right: 0rem;
+   border: none !important;
+}
+
+.full-screen-card1 .card-header { 
+   background-color: transparent !important;
+   margin-bottom: 0 !important;
+   padding-bottom: 0 !important;
+}
+
+.full-screen-card1 .card-body {
+   padding-top: 5px !important;
+   display: flex;
+   max-width: 100%;
+}
+
+ 
+ .custom-buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #e8f0ff;
+    color: #28536B;
+    border: 2px solid #28536B;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none; /*0 4px 6px rgba(0, 0, 0, 0.2);*/
+}
+
+.custom-buttons:hover {
+    background-color: #28536B;
+    color: white;
+}
+
+.buttons .btn-primary {
+    background-color: #28536b;
+    border: none;
+    padding: 9px 15px;
+   color: white;
+}
+  
+.buttons .btn-primary:hover:not(:disabled) {
+   background-color: #a1a6b4;
+   border: 1.5px solid #28536B;
+}
+
+.custom-buttons:disabled,
+.custom-buttons[disabled] {
+   background-color: #e0e0e0 !important; 
+   color: #999999 !important;          
+   border: 1.5px solid #cccccc !important;
+   box-shadow: none !important;
+   cursor: not-allowed !important; 
+ }
+ 
+ 
+ .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Ensures even spacing between buttons */
+    gap: 1.5em; /* Adds additional spacing between buttons */
+}
+ 
+ 
+
+.categoryPage th,
+.categoryPage td {
+    /*border: 1px solid #28536B; /* Adds visible grid lines */
+    text-align: left;
+    color: #28536B;
+    background-color: white !important;
+    padding: 12px 15px;
+    border-bottom: 2px solid #ddd;
+
+}
+ 
+
+ .categoryPage td:last-child {
+    text-align: right;
+ }
+ 
+ 
+ 
+ 
+ .footer {
+    background-color: white;
+    color: #28536B;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #a1a6b4;
+ }
+
+ .mainContent {
+    margin-top: 100px;
+}
+
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 1rem 0;
+   font-size: large;
+   font-weight: 300;
+ }
+
+th,
+  td {
+    padding: 4px;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+    border-bottom: 3px solid rgba(76, 20, 20, 0.1);
+  }
+  
+  /* Add faint row separation lines */
+  tr.row-separator {
+    border-bottom: 3px solid rgba(76, 20, 20, 0.1); /* Subtle border between rows */
+  }
+  
+  td {
+    border: none; /* Remove border for cells */
+  }
+  
+ 

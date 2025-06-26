@@ -1,0 +1,186 @@
+.userGroupPage {
+    background-color: #f8f9fa; /* Gray background */
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 80px; /* Navbar spacing */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  h2 {
+    color: black !important;
+    margin-bottom: 40px;
+  }
+  
+
+  .button-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 85%; /* Stretch search bar */
+    margin-bottom: 20px;
+  }
+
+  .small-button {
+    padding: 2px 8px;
+    font-size: 12px;
+    line-height: 1.2;
+    box-shadow: none;
+    border-radius: 4px;
+  }
+
+  .small-button.btn {
+    width: auto !important;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .white-box {
+    background-color: white;
+    width: 85%;
+    /* max-height: 500px; */
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: '50px';
+    margin-bottom: '50px'
+
+  }
+  
+  .white-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .white-box li {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .white-box li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  .tab-header {
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 12px 24px;
+    width: 610px;
+    background: #f0f0f0;
+    border: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+  
+  .tab-button.active {
+    background-color: #28536b;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+  .no-navbar-padding {
+    padding-top: 0px; 
+    margin-top: 0px;
+  }
+
+.userGroupPage .btn-primary {
+  background-color: #28536b;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  /* min-width: 100px; */
+  width: auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.userGroupPage .btn-primary:disabled {
+  background-color: #5c8297;
+  cursor: not-allowed;
+}
+
+.userGroupPage .btn-primary:hover:not(:disabled) {
+  background-color: #266587;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  gap: 20px;
+  color: black !important;
+  padding-bottom: 20px;
+}
+
+.pagination .custom-buttons {
+  padding: 4px 10px;
+  font-size: 14px;
+  max-width: 10px;
+}
+
+.pagination-info {
+  font-weight: bold;
+  color: black;
+}
+
+.page-info {
+  font-size: 16px;
+}
+  
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 17px;
+  color: gray;
+  font-size: 16px;
+  pointer-events: none; /* So the icon doesn't block clicks into input */
+}
+
+.search-bar {
+  padding-left: 45px !important; /* Push text inside input to the right so it doesn't overlap the icon */
+  border: 1px solid #bbbec7 !important;
+}
+
+.search-bar:focus {
+  border: 1px solid #28536B !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease;
+}
+
+
+
+.css-t3ipsp-control {
+  border: 1px solid #28536B !important;
+  box-shadow: none !important;
+}

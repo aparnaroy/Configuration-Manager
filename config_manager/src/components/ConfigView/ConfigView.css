@@ -1,0 +1,199 @@
+.config-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: 105px;
+    padding: 20px 0 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  /* Card Container */
+  .full-screen-card2 {
+    background-color: #ffffff;
+    /*padding: 30px;*/
+    border-radius: 10px;
+    width: 100%;
+    max-width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3px;
+  }
+  
+  /* .title-contents {
+    border-bottom: 1px solid #e0e0e0;
+  } */
+
+  /* Header & Titles */
+  .category-title {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32.8;
+  }
+  
+  .config-title {
+    color: black;
+    font-size: 17px;
+    padding: 32.8;
+  }
+
+  /* .config-contents {
+    padding: 17px;
+  } */
+  
+  .config-button {
+    background-color: #28536b !important;
+    border: none !important;
+  }
+
+  .buttons {
+    flex-direction: row;
+    /* justify-content: left; Ensures even spacing between buttons */
+    gap: 15px; /* Adds additional spacing between buttons */
+    padding-left: 12px;
+  }
+  
+  .config-button:hover:not(:disabled) {
+    background-color: #266587;
+  }
+  
+  /* Description */
+  .config-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+
+  .desc-edit-buttons {
+    height: 36.5px;
+    background-color: #28536b !important;
+    border: none !important;
+    font-size: 15.5px !important;
+    /* padding-top: px !important; */
+  }
+
+  input:selected,
+  textarea:selected {
+    background-color: #28536b !important;
+    color: white !important;
+    
+  }
+
+  .desc-edit-buttons:hover {
+    background-color: #266587 !important;
+  }
+  
+  /* Version Display */
+  .versions {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    color: #28536b;
+    margin-bottom: 10px;
+  }
+  
+  .versions > *:not(.selected-version) {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .versions > *:hover {
+    color: #133f56;
+    /* text-decoration: underline; */
+    filter: brightness(1.2);
+  }
+  
+  .selected-version {
+    font-weight: 600;
+    font-size: 14px;
+    color: #133f56;
+  }
+  
+  /* Code Block */
+  .config-page-details {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+  
+  /* Save Button */
+  .save-button {
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 8px 24px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #28536b !important;
+    color: #fff;
+    border: none !important;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-button:hover:not(:disabled) {
+    background-color: #266587;
+  }
+  
+  .save-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #d32f2f;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 16px;
+    margin-bottom: 15px;
+  }
+
+.config-buttons {
+    background-color: #28536b !important;
+    border-color: #28536b !important;
+}
+
+.config-buttons:hover {
+    background-color: #266587 !important;
+    border-color: #266587 !important;
+}
+  
+.cardButtons {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.config-card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: #b1b5b9 1px solid;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* min-height: 590px; */
+}
+  
+.card-top {
+    background-color: #eaf3f8; /* Light gray top */
+    padding: 5px 25px 5px 30px;
+    border-bottom: 1px solid #d1d1d1;
+}
+  
+.card-bottom {
+    padding: 17px 65px 17px 50px;
+}
+  
+   

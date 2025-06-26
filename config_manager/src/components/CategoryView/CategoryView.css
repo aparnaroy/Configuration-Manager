@@ -1,0 +1,272 @@
+.categoryPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    margin-top: 105px;
+    box-sizing: border-box;
+}
+
+.categoryView {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 6px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Target the Monaco overlay widget */
+.monaco-editor .monaco-editor-overlaymessage {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    line-height: 1.4 !important;
+    white-space: normal !important;
+  }
+  
+
+
+.schema-input .monaco-editor-background,
+.schema-input .margin,
+.schema-input .monaco-editor,
+.schema-input .monaco-editor .inputarea {
+  background-color: #ffffff !important; /* light grey */
+}
+
+.read-only-schema .monaco-editor-background,
+.read-only-schema .margin,
+.read-only-schema .monaco-editor,
+.read-only-schema .monaco-editor .inputarea {
+  background-color: rgb(240, 240, 240) !important; /* light grey */
+}
+
+.edit-config .monaco-editor-background,
+.edit-config .margin,
+.edit-config .monaco-editor,
+.edit-config .monaco-editor .inputarea {
+  background-color: #ffffff !important; /* light grey */
+}
+
+.read-only-config .monaco-editor-background,
+.read-only-config .margin,
+.read-only-config .monaco-editor,
+.read-only-config .monaco-editor .inputarea {
+  background-color: rgb(240, 240, 240) !important; /* light grey */
+}
+
+.config-border {
+    padding: 8px;
+    border: 1px solid rgb(179, 179, 179) !important;
+    border-radius: 6px;
+    background-color: #ffffff; /* match editor bg if needed */
+    overflow: hidden;
+    transition: border 0.25s ease;
+}
+
+.config-border:hover {
+    border: 1px solid #266587 !important; /* blue outline on hover */
+}
+
+.schema-border {
+    padding: 8px;
+    border: 1px solid rgb(179, 179, 179) !important;
+    border-radius: 6px;
+    background-color: rgb(240, 240, 240); /* match editor bg if needed */
+    overflow: hidden;
+  }
+  
+  
+  
+
+ 
+.full-screen-card {
+    margin-top: 1.05rem;
+    max-width: 80%;
+    width: 100vw;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border: none !important;
+}
+
+.full-screen-card .card-header { 
+    background-color: transparent !important;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Ensures even spacing between buttons */
+    gap: 1.5em; /* Adds additional spacing between buttons */
+}
+
+
+.exit-button {
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.full-screen-card .btn-primary {
+    background-color: #28536b;
+    border: none;
+}
+  
+.full-screen-card .btn-primary:hover:not(:disabled) {
+    background-color: #266587;
+}
+
+.full-screen-card .accordion-button:not(.collapsed) {
+    background-color: #28536b;
+    color: white;
+}
+
+.full-screen-card .accordion-button:focus {
+    box-shadow: none;
+}
+
+
+.config-item {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.config-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e8f8ff;
+}
+
+.config-name {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #28536b;
+    transition: all 0.2s ease;
+}
+
+.config-name:hover {
+    color: #133f56;
+}
+
+.config-details {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-left: 3px solid #28536b;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.config-field {
+    font-size: 14.5px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.config-item.no-config {
+    background-color: #fff3e0;
+    border: 1px dashed #ff5722;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-style: italic;
+    color: #ff5722;
+}
+
+.name-cell { 
+    color:#28536b;
+    font-weight: 600;
+}
+
+.selected-row {
+    background-color: lightgrey;
+  }
+  
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: large;
+    font-weight: 300;
+  }
+  
+  th,
+  td {
+    padding: 4px;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+    border-bottom: 2px solid rgba(20, 40, 76, 0.1);
+  }
+  
+  tr.row-separator {
+    border-bottom: 2px solid rgba(20, 40, 76, 0.1);
+  }
+  
+  td {
+    border: none;
+  }
+
+
+
+
+/* Table overall styles */
+.table-wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid #ccc; /* Border around the table */
+    border-radius: 8px;
+
+
+    table {
+        width: 100%;
+        margin: 0;
+        border-collapse: collapse;
+        font-size: large;
+        font-weight: 300;
+        border: 1px solid #ccc; /* Border around the table */
+        border-radius: 5px; /* Rounded corners for the table */
+        overflow: hidden; /* Prevent border overflow */
+      }
+      
+      /* Header Styles */
+      th, td {
+        padding: 8px; /* Increased padding for better look */
+        text-align: left;
+      }
+      
+      /* Bold Header */
+      th {
+        font-weight: bold;
+        background-color: #eaf3f8; /* Light blue header background */
+        border-bottom: 2px solid #000000; /* Border below header */
+      }
+      
+      /* Row Separator */
+      tr.row-separator {
+        border-bottom: 2.5px solid rgba(20, 44, 76, 0.1);
+      }
+      
+      /* Cell Styles */
+      td {
+        border: none; /* Remove cell borders */
+        font-weight: 300; /* Lighter font for cells */
+      }
+      
+      /* Name Column Highlight */
+      td.name-cell {
+        font-weight: 500;
+      }
+}
+  
+  

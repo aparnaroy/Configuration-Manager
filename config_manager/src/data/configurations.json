@@ -1,0 +1,125 @@
+[
+    {
+        "configurationId": "Student1",
+        "categoryId": "Student",
+        "name": "Student1",
+        "description": "Student One Information",
+        "createdDate": "11/14/2024",
+        "createdBy": "User2",
+        "fields": [
+            {
+                "name" : "Leon Giang",
+                "major" : "Computer Science",
+                "grade" :  "Senior",
+                "GPA" : "2.7"
+            }
+        ]
+    },
+    {
+        "configurationId": "Student2",
+        "categoryId": "Student",
+        "name": "Student2",
+        "description": "Student Two Information",
+        "createdDate": "11/15/2024",
+        "createdBy": "User1",
+        "fields": [
+            {
+                "name" : "Anthony Nittoly",
+                "major" : "Computer Science",
+                "grade" :  "Sopohmore",
+                "GPA" : "3.5"
+            }
+        ]
+    },
+    {
+        "configurationId": "Teacher1",
+        "categoryId": "Teacher",
+        "name": "Teacher1",
+        "description": "Teacher One Information",
+        "createdDate": "11/14/2024",
+        "createdBy": "Teacher2",
+        "fields": [
+            {
+                "name" : "Mike Franks",
+                "subject" : "Computer Science",
+                "classSize" :  "33",
+                "classroom" : "Smith Hall Rm 412"
+            }
+        ]
+    },
+    {
+        "configurationId": "Teacher2",
+        "categoryId": "Teacher",
+        "name": "Teacher2",
+        "description": "Teacher Two Information",
+        "createdDate": "11/15/2024",
+        "createdBy": "Teacher1",
+        "fields": [
+            {
+                "name" : "Avery Jackson",
+                "subject" : "Math",
+                "classSize" :  "22",
+                "classroom" : "McDowell Hall Rm 219"
+            }
+        ]
+    },
+    {
+        "configurationId": "Math",
+        "categoryId": "Subject",
+        "name": "Math",
+        "description": "Stores information on the Math subject",
+        "createdDate": "11/19/2024",
+        "createdBy": "Principal1",
+        "fields": [
+            {
+                "studentCount" : "15",
+                "requiredCurriculum" : "MATH101"
+            }
+        ]
+    },
+    {
+        "configurationId": "Harry Potter",
+        "categoryId": "Book",
+        "name": "Harry Potter",
+        "description": "Book I in the Harry Potter series",
+        "createdDate": "11/19/2024",
+        "createdBy": "Librarian1",
+        "fields": [
+            {
+                "pageCount" : "152",
+                "chapterCount" : "27",
+                "hardCover" : "true"
+            }
+        ]
+    },
+    {
+        "configurationId": "configId1",
+        "categoryId": "d9d1ef34-c7a7-4bc6-8683-db01d51ea854",
+        "name": "Math",
+        "description": "The math subject",
+        "createdDate": "11/19/2024",
+        "createdBy": "Teacher1",
+        "fields": [
+            {
+                "studentCount" : "15",
+                "requiredCurriculum" : "MATH101"
+            }
+        ]
+    },
+    {
+        "configurationId": "configId2",
+        "categoryId": "6c45e1be-c90a-4b5e-bed5-5223b66c7f79",
+        "name": "Student1",
+        "description": "Student One Information",
+        "createdDate": "11/19/2024",
+        "createdBy": "Teacher1",
+        "fields": [
+            {
+                "name" : "John Doe",
+                "major" : "Computer Science",
+                "grade" :  "Senior",
+                "GPA" : "2.7"
+            }
+        ]
+    }
+]
