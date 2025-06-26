@@ -21,7 +21,7 @@ We worked closely with a senior leader at Capital One to design and develop a ce
 
 ## Outcome
 
-Improved automation and orchestration logic in the Decisioning Platform, eliminating the need for hard coding.
+Improved automation and orchestration logic in the Decisioning Platform, eliminating the need for hard-coding.
 
 ## How We Built It
 
