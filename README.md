@@ -1,5 +1,8 @@
 # Capital One Configuration Manager
 
+<img width="883" alt="Screenshot 2025-06-27 at 8 48 53 PM" src="https://github.com/user-attachments/assets/6d83708c-6d2e-4c69-a25f-9794901b16c3" />
+
+
 ## The Team
 
 - Aparna Roy
